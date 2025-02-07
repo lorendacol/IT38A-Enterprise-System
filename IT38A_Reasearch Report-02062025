@@ -52,3 +52,12 @@ c.4. Outcomes & Consequences
    Hershey had to spend extra time and money fixing the system, impacting their operations and finances long-term. 
    This failure highlights the importance of proper testing, realistic timelines, and careful data migration
    when implementing an ERP system.
+d. Comparative Analysis:
+  d.1. Similarities & Differences
+          Aspect                         	Coca-Cola Enterprises (Case Study1)                       	Hershey	 (Case Study2)                                 Similarity/Difference
+      
+Reason for Implementing SAP	             Improve supply chain, production, and real-time data.     	Streamline operations and improve supply chain.         	Similarity
+Implementation Approach	                 Well-planned, phased approach.	                            Rushed, tight timeline.                                 	Difference
+Challenges	                              No major challenges, smooth implementation.	               Data migration issues and integration problems.	         Difference
+Outcome and Impact	                     Successful, with improved efficiency and responsiveness.	  Operational disruptions, lost sales, and reputation damage.   	Difference
+Post-Implementation Support            	Ongoing support and monitoring.                           	Extra time and resources needed to fix issues.	              Difference
