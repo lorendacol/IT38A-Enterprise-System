@@ -77,3 +77,9 @@ Hershey rushed the process, didn’t test enough, had data migration issues, and
 3.How can future implementations avoid similar failures?
 Future implementations should ensure thorough planning, proper testing, clear timelines, good vendor support, and careful data migration to avoid issues.
 
+e. Insights & Recommendations
+ e.1. Best Practices for Successful Enterprise System Implementation
+To ensure a successful enterprise system implementation, it’s important to plan clearly, involve employees in the process, and choose a system that fits the company’s needs.
+Thorough testing and proper training for employees are key, as well as careful data migration to avoid errors. Ongoing support from the vendor and continuous monitoring 
+after the launch help address any issues quickly, ensuring smooth operations.
+
