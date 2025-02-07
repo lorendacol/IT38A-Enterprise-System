@@ -54,21 +54,25 @@ c.4. Outcomes & Consequences
    when implementing an ERP system.
 d. Comparative Analysis:
   d.1. Similarities & Differences
-          Aspect                         	Coca-Cola Enterprises (Case Study1)                       	Hershey	 (Case Study2)                                 Similarity/Difference
-      
-Reason for Implementing SAP	             Improve supply chain, production, and real-time data.     	Streamline operations and improve supply chain.         	Similarity
-Implementation Approach	                 Well-planned, phased approach.	                            Rushed, tight timeline.                                 	Difference
-Challenges	                              No major challenges, smooth implementation.	               Data migration issues and integration problems.	         Difference
-Outcome and Impact	                     Successful, with improved efficiency and responsiveness.	  Operational disruptions, lost sales, and reputation damage.   	Difference
-Post-Implementation Support            	Ongoing support and monitoring.                           	Extra time and resources needed to fix issues.	              Difference
-
+____________________________________________________________________________________________________________________________________________________________________________________________
+|          Aspect                 |        	Coca-Cola Enterprises (Case Study1)                  |    	Hershey	 (Case Study2)                                   | Similarity/Difference     |
+|_________________________________|______________________________________________________________|______________________________________________________________|___________________________|  
+|Reason for Implementing SAP	     |      Improve supply chain, production, and real-time data.  	|  Streamline operations and improve supply chain.             | 	Similarity               |
+|Implementation Approach	         |     Well-planned, phased approach.	                          |  Rushed, tight timeline.                                     |	Difference                |
+|Challenges	                      |    No major challenges, smooth implementation.	              |  Data migration issues and integration problems.	            |Difference                 |
+|Outcome and Impact	              |  Successful, with improved efficiency and responsiveness.	   |  Operational disruptions, lost sales, and reputation damage. |Difference                 |
+|Post-Implementation Support      |	Ongoing support and monitoring.                              |	 Extra time and resources needed to fix issues.	             |Difference                 |
+|_________________________________|______________________________________________________________|______________________________________________________________|___________________________|
  d.2. Critical Success vs. Failure Factors
-          Critical Success Factors:                    Critical Failure Factors:
-          Clear vision and strategy                   	Unclear strategy and rushed approach
-          Effective project management                	Poor planning and lack of structure
-         Strong vendor relationship and support	       Limited vendor support post-implementation
-         Employee involvement and training	            Insufficient training leading to confusion and mistakes
-         Good customization and system fit	            Poor customization and inadequate fit for needs
+   ______________________________________________________________________________________________________________
+   |       Critical Success Factors:              |      Critical Failure Factors:                              |
+   |______________________________________________|_____________________________________________________________|
+   |      Clear vision and strategy               |   	Unclear strategy and rushed approach                     |
+   |       Effective project management           |   	Poor planning and lack of structure                      |
+   |      Strong vendor relationship and support	 |   Limited vendor support post-implementation                |
+   |     Employee involvement and training	       | Insufficient training leading to confusion and mistakes     |
+   |     Good customization and system fit	       |  Poor customization and inadequate fit for needs            |
+   |______________________________________________|_____________________________________________________________|
    d.3. Key Takeaways & Lessons Learned:
 1. What did the successful case do right?
 Coca-Cola planned carefully, involved employees, tested thoroughly, and had strong vendor support, leading to smooth implementation and success.
