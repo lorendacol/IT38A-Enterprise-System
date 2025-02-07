@@ -24,3 +24,5 @@ c.1. Company Overview:
      Hershey, a leading chocolate manufacturer, decided to implement SAP to improve its operations as the company was growing rapidly. It faced challenges with its supply chain, inventory, and production processes. The goal was to have a more integrated system that would enhance efficiency, streamline operations, and provide real-time data to help with better decision-making across its global business.
  c.2. Implementation Process & Challenges
    Hershey began implementing SAP in the late 1990s to replace its old systems with a single, unified solution. The process included selecting SAP for its capabilities, customizing it for supply chain and production needs, and migrating data, which caused errors. Testing was also required to ensure the system worked well, but time limitations affected its thoroughness.
+ c.3. Key Failure Factors
+   Hershey's SAP implementation failed due to several issues: the system was rushed before a busy sales season, there wasn’t enough testing, data migration was done poorly, and the company underestimated the difficulty of integrating SAP with its existing systems, causing major disruptions.
