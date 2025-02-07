@@ -1,30 +1,54 @@
 a. Research title:"Comparative Analysis of Successful and Failed Enterprise System Implementations"
 
 b. Case Study 1: Successful Enterprise System Implementation
+b.1.Company Overview (Why the Enterprise System Was Implemented)
 
-  b.1.Company Overview (Why the Enterprise System Was Implemented)
-
-    Coca-Cola Enterprises faced challenges in managing its global operations due to multiple disconnected legacy systems, which caused inefficiencies, inconsistent data, and slow decision-making across departments like manufacturing, supply chain, and sales. To address these issues, Coca-Cola Enterprises implemented SAP, an integrated ERP system, to unify its operations, enhance supply chain management, improve production efficiency, and provide real-time access to business-critical data, enabling faster responses to market changes and more informed decision-making.
+ Company Name:  Coca-Cola Enterprises
+   Coca-Cola Enterprises faced challenges in managing its global operations due to multiple disconnected legacy systems, 
+   which caused inefficiencies, inconsistent data, and slow decision-making across departments like manufacturing, supply chain, 
+   and sales. To address these issues, Coca-Cola Enterprises implemented SAP, an integrated ERP system, to unify its operations,
+  enhance supply chain management, improve production efficiency, and provide real-time access to business-critical data,
+    enabling faster responses to market changes and more informed decision-making.
 
  b.2. Implementation Process
-
- Coca-Cola Enterprises implemented SAP in several steps. First, they assessed their systems and found areas to improve, like inventory and orders. After choosing SAP for its flexibility, they customized it for their needs. Then, they moved data from old systems to SAP and trained employees on how to use it. After testing, SAP went live, and the company kept an eye on its performance to make improvements.
+ Coca-Cola Enterprises implemented SAP in several steps. First, they assessed their systems and found areas to improve, 
+ like inventory and orders. After choosing SAP for its flexibility, they customized it for their needs. 
+ Then, they moved data from old systems to SAP and trained employees on how to use it. After testing, SAP went live,
+  and the company kept an eye on its performance to make improvements.
 
  b.3. Key Success Factors
- 
- The success of SAP at Coca-Cola Enterprises was due to a few key factors. Coca-Cola Enterprises had a clear goal to improve efficiency and decision-making, which kept the project focused. Strong project management ensured everything went smoothly. Employees were involved early with training and testing, which helped reduce resistance. Coca-Cola Enterprises worked closely with SAP to customize the system and get ongoing support. Finally, CCE managed the change well, making sure employees were ready and supported throughout the process.
+ The success of SAP at Coca-Cola Enterprises was due to a few key factors. Coca-Cola Enterprises had a clear goal to
+ improve efficiency and decision-making, which kept the project focused. Strong project management ensured everything went
+ smoothly. Employees were involved early with training and testing, which helped reduce resistance. 
+ Coca-Cola Enterprises worked closely with SAP to customize the system and get ongoing support.
+ Finally, CCE managed the change well, making sure employees were ready and supported throughout the process.
 
-   b.4. Outcomes & Impact
+ b.4. Outcomes & Impact
+  Implementing SAP at Coca-Cola Enterprises made operations smoother by connecting sales, manufacturing, and supply chain,
+  helping to make faster decisions with real-time data. It improved inventory management, reduced waste, and made the supply 
+  chain quicker. Automation saved costs, which were reinvested into the business. SAP allowed CCE to respond faster to
+  market changes and customer needs, while better order tracking improved customer service. 
 
-   Implementing SAP at Coca-Cola Enterprises made operations smoother by connecting sales, manufacturing, and supply chain, helping to make faster decisions with real-time data. It improved inventory management, reduced waste, and made the supply chain quicker. Automation saved costs, which were reinvested into the business. SAP allowed CCE to respond faster to market changes and customer needs, while better order tracking improved customer service. 
-
-   c. Case Study 2: Failed Enterprise System Implementation
+ c. Case Study 2: Failed Enterprise System Implementation
 
 c.1. Company Overview: 
-     Hershey, a leading chocolate manufacturer, decided to implement SAP to improve its operations as the company was growing rapidly. It faced challenges with its supply chain, inventory, and production processes. The goal was to have a more integrated system that would enhance efficiency, streamline operations, and provide real-time data to help with better decision-making across its global business.
+   Company Name: Hershey
+   Hershey, a leading chocolate manufacturer, decided to implement SAP to improve its operations as the company was growing 
+   rapidly. It faced challenges with its supply chain, inventory, and production processes. The goal was to have a more
+   integrated system that would enhance efficiency, streamline operations, and provide real-time data to help with better 
+   decision-making across its global business.
  c.2. Implementation Process & Challenges
-   Hershey began implementing SAP in the late 1990s to replace its old systems with a single, unified solution. The process included selecting SAP for its capabilities, customizing it for supply chain and production needs, and migrating data, which caused errors. Testing was also required to ensure the system worked well, but time limitations affected its thoroughness.
+   Hershey began implementing SAP in the late 1990s to replace its old systems with a single, unified solution. 
+The process included selecting SAP for its capabilities, customizing it for supply chain and production needs, and migrating
+data, which caused errors. Testing was also required to ensure the system worked well, but time limitations affected its thoroughness.
  c.3. Key Failure Factors
-   Hershey's SAP implementation failed due to several issues: the system was rushed before a busy sales season, there wasn’t enough testing, data migration was done poorly, and the company underestimated the difficulty of integrating SAP with its existing systems, causing major disruptions.
+   Hershey's SAP implementation failed due to several issues: the system was rushed before a busy sales season, there wasn’t
+   enough testing, data migration was done poorly, and the company underestimated the difficulty of integrating SAP with its 
+    existing systems, causing major disruptions.
 c.4. Outcomes & Consequences
-   Hershey's failed SAP implementation caused major issues, including order delays, inventory problems, and difficulty meeting demand during the busy Halloween season, leading to lost sales. The company faced financial losses, damaged its reputation with customers and suppliers, and experienced delays in the expected benefits of the new system. Hershey had to spend extra time and money fixing the system, impacting their operations and finances long-term. This failure highlights the importance of proper testing, realistic timelines, and careful data migration when implementing an ERP system.
+   Hershey's failed SAP implementation caused major issues, including order delays, inventory problems, and difficulty 
+   meeting demand during the busy Halloween season, leading to lost sales. The company faced financial losses, damaged its
+   reputation with customers and suppliers, and experienced delays in the expected benefits of the new system.
+   Hershey had to spend extra time and money fixing the system, impacting their operations and finances long-term. 
+   This failure highlights the importance of proper testing, realistic timelines, and careful data migration
+   when implementing an ERP system.
