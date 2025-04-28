@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    background: #3346A8;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+    background: #223080;
+}
+
+.content {
+    padding: 20px;
+}
+
+.home-section {
+    text-align: center;
+    padding: 50px;
+    background: url('background.jpg') no-repeat center center / cover;
+    color: #fff;
+}
+
+.home-section .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #223080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.announcements-section, .equipment-section {
+    padding: 20px;
+}
+
+.announcement-content {
+    display: flex;
+    gap: 20px;
+}
+
+.announcement-content .text {
+    flex: 2;
+}
+
+.announcement-content .image {
+    flex: 1;
+}
+
+.equipment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.equipment-item {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    align-items: center;
+}
+
+.equipment-item img {
+    width: 100px;
+}
+
+.filter-bar {
+    margin-bottom: 20px;
+}
+
+.filter-bar button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
