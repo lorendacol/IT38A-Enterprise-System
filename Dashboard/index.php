@@ -6,7 +6,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 <head>
     <meta charset="UTF-8">
     <title>Sports Club Dashboard</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link your CSS -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <nav class="navbar">

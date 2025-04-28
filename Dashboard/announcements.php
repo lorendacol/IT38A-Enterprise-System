@@ -9,7 +9,7 @@
             <p>Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content...</p>
         </div>
         <div class="image">
-            <img src="tryouts.jpg" alt="Basketball Tryouts Poster" style="max-width: 100%;">
+            <img src="basketball.jpg" alt="Basketball Tryouts Poster" style="max-width: 100%;">
         </div>
     </div>
 </section>
