@@ -2,26 +2,49 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
 
-.navbar ul {
-    background: #3346A8;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.navbar {
     display: flex;
-}
-
-.navbar ul li a {
+    justify-content: space-between; /* separates logo and nav */
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #223080;
     color: white;
-    padding: 15px 20px;
-    display: block;
-    text-decoration: none;
 }
 
-.navbar ul li a.active, .navbar ul li a:hover {
-    background: #223080;
+.navbar-logo h1 {
+    margin: 0;
+    font-size: 24px;
 }
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffd700; /* gold on hover */
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
 
 .content {
     padding: 20px;
@@ -30,10 +53,21 @@ body {
 .home-section {
     text-align: center;
     padding: 50px;
-    background: url('background.jpg') no-repeat center center / cover;
-    color: #fff;
+    height: 100vh; 
+    width: 100vw; 
+    background: url('spo.jpg') no-repeat center center / cover;
+    color: #4275e2;
 }
 
+.home-section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
 .home-section .btn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -42,22 +76,52 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
-
-.announcements-section, .equipment-section {
-    padding: 20px;
+.announcements-section {
+    padding: 60px 40px;
+    background: url('background.jpg') no-repeat center center / cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
 }
 
-.announcement-content {
+.announcement-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.announcement-content .text {
-    flex: 2;
+.announcement-text {
+    flex: 1 1 55%;
 }
 
-.announcement-content .image {
-    flex: 1;
+.announcement-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.announcement-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.announcement-image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .equipment-list {

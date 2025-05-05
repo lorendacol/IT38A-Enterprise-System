@@ -9,14 +9,19 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="?page=home" <?= $page == 'home' ? 'class="active"' : '' ?>>Home</a></li>
-            <li><a href="?page=announcements" <?= $page == 'announcements' ? 'class="active"' : '' ?>>Announcements</a></li>
-            <li><a href="?page=equipment" <?= $page == 'equipment' ? 'class="active"' : '' ?>>Equipment</a></li>
-            <li><a href="?page=contact" <?= $page == 'contact' ? 'class="active"' : '' ?>>Contact Us</a></li>
-        </ul>
+<header class="navbar">
+    <div class="navbar-logo">
+        <h1>Sports Club</h1>
+    </div>
+    <nav class="navbar-links">
+        <a href="index.php">Home</a>
+        <a href="?page=announcements">Announcements</a>
+        <a href="?page=equipment">Equipment</a>
+        <a href="?page=contact">Contact Us</a>
+        <img src="profile.jpg" alt="Profile" class="profile-icon"> <!-- optional profile image -->
     </nav>
+</header>
+
 
     <div class="content">
         <?php
