@@ -1,15 +1,15 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between; /* separates logo and nav */
+    justify-content: space-between; 
     align-items: center;
-    padding: 15px 30px;
+    padding: 30px 30px;
     background-color: #223080;
     color: white;
 }
@@ -34,7 +34,11 @@ body {
 }
 
 .navbar-links a:hover {
-    color: #ffd700; /* gold on hover */
+    background-color: rgba(0, 0, 0, 0.2); /* semi-transparent dark background */
+    border-radius: 5px;
+    padding: 6px 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* soft dark shadow */
+    transition: all 0.3s ease;
 }
 
 .profile-icon {
@@ -47,21 +51,37 @@ body {
 
 
 .content {
-    padding: 20px;
+
 }
 
 .home-section {
+    position: relative;
     text-align: center;
     padding: 50px;
-    height: 100vh; 
-    width: 100vw; 
-    background: url('spo.jpg') no-repeat center center / cover;
-    color: #4275e2;
+    height: 90vh; 
+    width: 92vw; 
+    background: url('bgrnd.jpg') no-repeat center center / cover;
+    color: #223080;
+    overflow: hidden;
 }
 
+.home-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.5); /* White overlay with 30% opacity */
+    z-index: 1;
+}
+
+.home-section > * {
+    position: relative;
+    z-index: 2; /* Ensures text/content appears above overlay */
+}
+
+
 .home-section h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 90px;
+    margin-bottom: 10px;
 }
 
 .home-section p {
@@ -78,7 +98,7 @@ body {
 }
 .announcements-section {
     padding: 60px 40px;
-    background: url('background.jpg') no-repeat center center / cover;
+    background: url('ann.jpg') no-repeat center center / cover;
     font-family: 'Segoe UI', sans-serif;
     color: #333;
 }
@@ -98,9 +118,18 @@ body {
 .announcement-text {
     flex: 1 1 55%;
 }
+.announcements-section h2 {
+    text-align:left;
+    font-size: 30px; /* Adjusted for better visibility */
+    margin-bottom: 30px; /* Adjust the space below the title */
+    color: #f2f2f7; /* You can adjust this to match your brand color */
 
-.announcement-text h2 {
-    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.announcement-text h3 {
+    font-size: 27px;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -119,34 +148,206 @@ body {
 }
 
 .announcement-image img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 
-.equipment-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.equipment-page {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.equipment-item {
-    display: flex;
-    gap: 20px;
+.equipment-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #223080;
+    text-align:left;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    padding: 10px 15px;
+    width: 250px;
     border: 1px solid #ccc;
-    padding: 15px;
+    border-radius: 6px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #223080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-and-filter {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 10px;
 }
 
-.equipment-item img {
+.search-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 350px; /* slight shift to the right */
+    flex-shrink: 0;
+}
+
+.category-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: auto; /* pushes filters to the right */
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+}
+
+.filter-btn.active {
+    background-color: #223080;
+    color: white;
+}
+
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.equipment-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.equipment-image {
     width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
 }
 
-.filter-bar {
-    margin-bottom: 20px;
+.equipment-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #223080;
 }
 
-.filter-bar button {
-    margin-right: 10px;
-    padding: 5px 10px;
+.equipment-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
 }
+
+.borrow-button {
+    margin-top: 10px;
+    background-color: #223080;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Background overlay */
+.bg-overlay {
+    background-image: url('bgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8);
+    position: relative;
+    height: calc(100vh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dark overlay */
+  .bg-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    position: relative;
+    z-index: 10;
+    background-color: rgb(250, 248, 248);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+   
+  }
+  
+  /* Input Fields */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button */
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form Labels */
+  .contact-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  /* Heading Styling */
+  .contact-form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  

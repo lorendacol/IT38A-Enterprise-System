@@ -11,14 +11,14 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 <body>
 <header class="navbar">
     <div class="navbar-logo">
-        <h1>Sports Club</h1>
+       
     </div>
     <nav class="navbar-links">
         <a href="index.php">Home</a>
         <a href="?page=announcements">Announcements</a>
         <a href="?page=equipment">Equipment</a>
         <a href="?page=contact">Contact Us</a>
-        <img src="profile.jpg" alt="Profile" class="profile-icon"> <!-- optional profile image -->
+        <img src="lor.jpg" alt="Profile" class="profile-icon"> 
     </nav>
 </header>
 

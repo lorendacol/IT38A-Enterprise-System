@@ -1,8 +1,9 @@
 <section class="announcements-section">
-    
+    <h2>Announcements</h2>
+
     <div class="announcement-wrapper">
         <div class="announcement-text">
-            <h2>Upcoming Tryouts for Basketball Team</h2>
+            <h3>Upcoming Tryouts for Basketball Team</h3>
             <p><em>for BUACS</em></p>
             <p>Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:</p>
             <p>

@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "your_database_name");
+$conn = new mysqli("localhost", "root", "", "dacol");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
