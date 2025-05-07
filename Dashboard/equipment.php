@@ -62,10 +62,10 @@ $result = $conn->query($sql);
         <img src="<?= $row['image_url'] ?>" alt="<?= $row['name'] ?>" class="equipment-image">
         <h3 class="equipment-name"><?= $row['name'] ?></h3>
         <p class="equipment-description"><?= $row['description'] ?></p>
-        <form method="POST" action="borrow.php">
-          <input type="hidden" name="equipment_id" value="<?= $row['id'] ?>">
-          <button type="submit" class="borrow-button">Borrow</button>
-        </form>
+        <form method="GET" action="borrow.php">
+  <input type="hidden" name="equipment_id" value="<?= $row['id'] ?>">
+  <button type="submit" class="borrow-button">Borrow</button>
+</form>
       </div>
     <?php endwhile; ?>
   </div>
